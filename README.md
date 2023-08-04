@@ -1,6 +1,6 @@
 # Vaidio Utilities
 
-## Hardware Information Collection
+## Collecting Hardware Information
 Download the script:
 ```
 curl -s https://raw.githubusercontent.com/a-lbertlin/vaidio/main/utils/hwinfo.sh -o hwinfo.sh
