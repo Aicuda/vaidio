@@ -3,7 +3,7 @@
 ## Collecting Hardware Information
 Download the script:
 ```
-curl -s https://raw.githubusercontent.com/a-lbertlin/vaidio/main/utils/hwinfo.sh -o hwinfo.sh
+curl -s https://raw.githubusercontent.com/Aicuda/vaidio/main/utils/hwinfo.sh -o hwinfo.sh
 ```
 Run the script:
 ```
@@ -12,5 +12,5 @@ chmod +x hwinfo.sh
 ```
 All at once:
 ```
-curl -s https://raw.githubusercontent.com/a-lbertlin/vaidio/main/utils/hwinfo.sh | bash &> hw_collection.txt
+curl -s https://raw.githubusercontent.com/Aicuda/vaidio/main/utils/hwinfo.sh | bash &> hw_collection.txt
 ```
