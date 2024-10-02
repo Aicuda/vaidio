@@ -31,4 +31,8 @@ ip link show
 echo -e "\n\n#### Detail Information ####\n"
 sudo lshw
 
+echo -e "\n\n#### Docker Information ####\n"
+sudo docker images
+sudo docker ps -a
+
 echo -e "\n\n>>>>> Complete."
