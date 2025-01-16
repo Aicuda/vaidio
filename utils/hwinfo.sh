@@ -21,6 +21,7 @@ df -h
 
 echo -e "\n\n#### GPU Information ####\n"
 nvidia-smi -L
+nvidia-smi --query-gpu=name --format=csv,noheader
 echo
 lspci | grep NVIDIA
 
